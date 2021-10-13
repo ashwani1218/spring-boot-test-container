@@ -1,4 +1,4 @@
-# spring-boot Test-container & Flyway migration
+# Spring-boot Test-container & Flyway migration
 Project to display understand test containers and flyway migration
 
 This project consists of spring boot application which leverages the power of Spring jdbc and Flyway migration to version control our database. 

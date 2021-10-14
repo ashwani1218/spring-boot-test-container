@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @TestPropertySource(properties = "spring.datasource.url=jdbc:tc:mysql:5.7.34:///")
 @AutoConfigureWebClient
-class TestBookCatalogApplicationTests {
+class TestBookCatalogApplication{
 
 	@Autowired
 	private WebTestClient webTestClient;
